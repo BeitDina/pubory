@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Albu Cristian\3D Editor]
+"Auto-save options"=hex:01
+"Window x"=dword:0000006b
+"Window y"=dword:00000042
+"Window width"=dword:00000255
+"Window height"=dword:000001b6
+"Maximized"=hex:00
+
+[HKEY_CURRENT_USER\Software\Albu Cristian\3D Editor\Editor]
+"Image"="C:\\WINDOWS\\SETUP.BMP"
+"Background"=hex:02
+"Color"=dword:00ffffff
+"Planes"=dword:00000003
+"First plane color"=dword:009b9b9b
+"Last plane color"=dword:00ffffff
+"Distance"=dword:00000001
+"Direction"=hex:05
+"Cursor type"=hex:01
+"Cursor update"=dword:0000012c
+"Font"=hex:10,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,00,\
+  00,ee,03,02,01,31,46,69,78,65,64,73,79,73,00,ff,ff,00,00,00,00,00,00,00,00,\
+  bf,35,f6,ff,00,01,00,00,00,00,02,00,00,14,00,00,00
+"Syntax highlight"=hex:01
+"Double buffering"=hex:01
+

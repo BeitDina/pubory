@@ -1,0 +1,13 @@
+copyrfaq.txt	Game Copiers for the SNES/Genesis FAQ - version 1.15
+emu-mech.txt	discussions about software emulators (c.s.a.emulators)
+gamemed2.txt	control signals in '139 and '374
+gamemedc.txt	gamemedc.zip info
+gamemedc.zip	SNES and Genesis cartridge reader - desc, schema, source
+ggenie.txt	Game Genie for Genesis decoder info
+hardware.txt	Sega Genesis Hardware Internals - 4 July 1993
+joystick.txt	Genesis joystick pinout
+rgbcable.txt	Genesis RGB cable order info
+sega-rgb.txt	do-it-yourself connect Genesis to RGB monitor
+sega8pin.txt	pin configuration
+segafaq.doc	Sega Programming FAQ - 4 July 1994
+switch.txt	Sega NTSC/PAL and Language Switch

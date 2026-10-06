@@ -1,0 +1,25 @@
+Since I couldn't find any infos on IPS formats i hacked around it for
+like 10 minutes and came up with this.
+
+
+Format of an IPS (International Patching System)
+
+MAJIC         : 5 chars = "PATCH"
+Address       : 3 chars
+patch size    : 2 bytes
+bytes to byte : ? char  (size of the patch size)
+.. if more than one area to patch, start at Address again
+   and follow thru
+EOF           : 3 chars = "EOF"
+
+
+PATCHaaappb?aaappb?EOF <-- ips patch with 2 chunks
+
+
+
+Later Mind Rape
+
+
+Greets go to Cynix, Sir_Jinx/Censor, c0ke KiD, Ntt, Rom Burner,
+             Sector Slayer/Spectrum, bri_acid, Mytle_, SiCKMAN,
+             dorkwad, goose, and all c00l snes coders

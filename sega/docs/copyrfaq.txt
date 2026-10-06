@@ -1,0 +1,322 @@
+From: vsuhocki@cbnewsm.cb.att.com (v.p.suhocki)
+Subject: Copier FAQ v1.15
+ 
+ 
+                  THE FREQUENTLY ASKED QUESTIONS LIST
+                  TO GAME COPIERS FOR THE SNES/GENESIS
+                   ver 1.15 (Last Revision 11/16/93)
+ 
+ 
+Credits:
+ 
+Maintained by: vsuhocki@cbnewsm.cb.att.com <------(send submissions here)
+Edited by    : ratnuts@panix.com 
+               skleung@csd.hku.hk
+Contributors : drknight@garg.campbell.ca.us
+               cw531@slc4.ins.cwru.edu
+               coyote@mentor.cc.purdue.edu
+               joss@asterix.grenoble.hp.com
+ 
+This is being maintained because there are always questions on 
+rec.games.video.* about what a game copier is, where to get one,
+how much is it, how does it work, etc.
+I'll try to update this as I get new info or corrections, but no guarantees.
+Some information might be incorrect, so if you have the correct info,
+please mail it to me and I'll include it and list your name at the top
+as one of the contributors.
+ 
+Table Of Contents
+a) Preface (taken from the rec.games.video FAQ)
+1) What is a Game Copier?
+2) What are the different kinds?
+3) How does it work?
+4) Are all machines compatible?
+5) Where can I get GoldFinger codes?
+6) What are some problems?
+7) Is this thing legal?
+8) How much does it cost?
+9) Where can I get one?
+10) Will it become obsolete?
+11) News Updates
+12) User Tips
+13) Mailing List
+14) Final Notes
+ 
+a. Preface
+ 
+I think the short part from the r.g.video FAQ is good for starters.
+(maintained by Ken Arromdee (arromdee@jyusenkyou.cs.jhu.edu))
+Yes, it is legal to copy games for your own private use.
+No, it is not legal to give away or sell the copies.
+No, it is not legal to give away or sell the original and keep the copy.
+No, there is no known cheap way to copy CD-ROMs yet.
+Yes, they have legal uses: to copy your own games for backup, and to directly
+modify the game code without a Game Genie-type device. New developments
+such as Real Time Saving and Slow Motion add to the versatility of these
+copiers. Backup RAM copying is one great feature, it allows multiple save games instead of the 3 you are limited to in a game. It's questionable how many copierowners actually use them mostly for this.
+ 
+1) What is a Game Copier?
+ 
+A game copier is a machine that hooks into your game system and takes the
+game that is in the cartridge and copies it to a diskette.
+ 
+2) What are the different kinds?
+(Note: there are more than this, this is just a sample list)
+ 
+For SNES: Super Wild Card, Super Magicom, UFO Super Drive, Super Pro
+Fighter Q, Supercom Pro, Game Doctor SF, Supercom Partner, Dragon Boy.
+ 
+For Genesis: Super Magic Drive, Interceptor, Mega Disk, Magic Drive Plus
+             (SMD can be used for SNES with an optional
+              adaptor called the Super Magicom Drive)
+ 
+For SNES and Genesis: Multi-Game Hunter, Multi-Game Hunter/ASIC.
+(Note:Check your systems RAM physically. It won't show the extra 8 meg on
+startup. You should have 6 rows of chips and no empty clusters.)
+ 
+For SFC,SNES,MD,GEN,PCE,TG16,SuperGrafx,GB,NeoGeo: Multi-Game Doctor II
+ 
+3) How does it work?
+ 
+The game copier takes the game from the ROM in the cartridge and then copies
+it out to a file on the diskette in the drive. Then it is your backup copy;
+if you ever lose your original, you have a backup to replace it. To play the
+game, you put the diskette in the drive and it loads it into memory and the
+game is able to be played. Games larger than 12 megabits (like SF2)
+need more than one diskette. The copier breaks the game into 2 parts which
+are copied to 2 diskettes. Games that have battery saves (like Zelda 3) save
+the games to diskette in files, so they are still retrievable and usable.
+The disks are MS-DOS format.
+ 
+4) Are all machines compatible?
+ 
+No, some machines write in to their own format. But most follow the SMC or
+SMD format. There are utilities to convert between formats. The most compatible
+machine is the SWC. It can read all HiRom formats created by backup copiers,
+and most file formats by other copiers. 
+ 
+5) Where can I get GoldFinger codes?
+ 
+There is a server called <gold-finger-serv%nvcc.uucp@groucho.sonoma.edu>
+Email a message with the text
+send SNES/game_name or send Genesis/game_name
+quit
+For the game name you must use dashes as spaces. Like Final Fantasy 2 is
+Final_Fantasy_II.
+ 
+6) What are some problems?
+ 
+Some cartridges require a DSP chip made by the company, or a RISC chip
+(aka FX chip) in the cartridge. An adaptor can be bought, or the cartridge
+must be seated at the top for the game to access the chip. Also HiRom
+games are problems if your copier doesn't support them. There are 2 decoders,   one for <=16M and one for >16M, make sure you get both. Now games are using an
+SRAM check to check the amount of SRAM avaiailable. Most cards have 8k-16k, but a copier usually has 256k. Most copiers need a patch to fix this, but the 
+GDSF3, SWC, and SPF-Q automatically protect this problem. A list of games with
+DSP/FX/HiRom/SRAM is at the end of this section. Also, if Nintendo comes 
+out with a hardware protection scheme, a new copier might
+be needed (or just another adaptor) but this is not likely because it adds
+to the cost of producing the cart, and not many software companies will
+spend the extra money just for the sake of stopping these backup devices
+when they will sell at least their expected number of units anyway.
+ 
+Game                    Size         Extra
+Lord Monarch            4M           HiRom
+Super Mario Kart        4M           DSP
+Pilotwings              4M           DSP
+F1 ROC 2                8M           DSP
+Super Bomberman         4M           HiRom
+StarFox                 8M           FX/RISC
+FX Trax                 8M           FX/RISC
+SF2 Turbo              20M           HiRom
+Super Air Dual          4M           DSP
+Exaust Heat II          8M           DSP
+3D Baseball             8M           DSP
+Suzuka 8 Hours          8M           DSP
+Votoms                  8M           DSP
+Barcode Battle          4M           HiRom
+Dungeon Master          8M           DSP
+Psycho Dream            8M           HiRom
+SD Battle Soccer        8M           HiRom
+Dragon Knight Group     8M           HiRom
+Romance/3 Kingdoms 2   12M           HiRom
+Ramna 1/2 Part 2       12M           HiRom
+Europe Sensen          12M           HiRom
+F1 GrandPrix 2         12M           HiRom
+Super Baseball 2020    12M           HiRom
+Wolf/Wild Deer         12M           HiRom
+Taikon Rissiden        12M           HiRom
+Elnard                 12M           HiRom
+Dragon Slayer 2        12M           HiRom
+Final Fantasy 5        16M           HiRom
+Castle Wolfenstein      8M           HiRom
+World Heroes           16M           HiRom
+Seventh Saga           12M           HiRom
+Secret of Mana         16M           HiRom
+Shooting Macross        8M           HiRom
+Aladdin                10M           SRAM
+R-Type III             16M           SRAM
+Madden 94               8M           SRAM
+Super Mario All-Stars  16M           SRAM
+Art Of Fighting        16M           HiRom
+ 
+Another problem with copiers (usually old ones) is FastRom. Fast rom refers
+to cartridges which require DRAM that run at speeds of at least 70ns. Many
+of the older backup systems used 80ns DRAM boards. The reason why these
+older backup systems will not run the crop of FastRom games is because the
+memory is too slow to handle the FastRom routines in the cartridge, and thus
+you will get black screens or glitches during a game. These FastRom routines
+are beings used because the SNES is a slow machine, and so to speed up the
+the newer games, FastRom is used to eliminate any potential slowdown of the
+system. The first FastRom game was Super Star Wars, since then there have been
+many games FastRom games released. All current backup systems can handle them,
+and you can get an upgrade chip or software patch if you don't have a FastRom
+decoder.
+ 
+7) Is this thing legal?
+ 
+Technically, yes. You are within your rights to make an archival copy of
+your games for safekeeping in the event your original breaks. Piracy
+is an awful side-effect of these, but if you pirate the games, the companies
+will lose money, and then games will begin to suck, and then there will
+be no point of using game systems anymore.
+ 
+8) How much does one cost?
+ 
+This is the bad part. They usually cost $300 and up, the lowest I've seen
+so far was $280 for a Super Wild Card 16MB from some guy who said he was going
+to get them at cost on a trip to Hong Kong. But usually expect to pay a
+higher price for a system that supports more, like the Super Wild Card 24MB
+is about $355, but for the MultiGame Hunter 24MB which supports SNES and Genesis
+is $370. The Multi-Game Doctor II which supports every known system
+(including Neo-Geo) costs $650. Check your company for what adaptors you get
+with the MGD2.
+ 
+9) Where can I get one?
+ 
+The best place I know of is National Console Support. They sell
+all of the above systems, at decent prices. They also have lifetime
+support of the system, and a monthly newsletter. They can be reached at:
+ 
+Voice: (718) 523-5774 (9-6 weekdays)
+Mail:  (917) 788-0699
+Fax:   (718) 523-8414
+BBS:   PRIVATE        (If your are a NCS customer, email ratnuts for the #)
+ 
+You can also email ratnuts@panix.com for an info-pak with
+color pictures of their most popular systems from NCS about their
+systems and prices.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+skleung@csd.hku.hk sells systems at cost prices and mails them to you from Hong
+Kong. His prices are cheaper than NCS. Some prices include the Super Wild Card
+24MB for $330, the MGH/ASIC 24MB $330, and the Magic Drive Plus 24MB $345. 
+No power adaptors are shipped with his products, and to pay you must use
+direct/wild money transfer. If you have more questions, please email him.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Console Connection sells MGH's and parts only. They are available at 
+(214)306-3640.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Beyond Computers sells consoles for most systems.
+Info:  212-832-0078
+Mail:  917-462-5071
+Order: 800-851-9176
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Console Repairs repairs ALL console systems at reasonable prices. Call for
+more information on prices for each individual system repairs.
+(312)947-0107
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<Insert your ad here. Email me ad for posting>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+10) Will it become obsolete?
+ 
+Well, all things do become obsolete, but these new systems will last
+as long as the Genesis and SNES do. All current systems are upgradeable
+to 24 meg and 32 meg to support the new games. The MGH is a good example
+of an upgradeable system. For example, the first batch of MGHs released in
+the spring of '92 are able to run high rom games with the use of the high
+rom adaptor. On the Super Magicom, you had to replace the mother board with
+The Super Magicom+ or Super Wild Card upgrade board in order to backup and
+run the high rom games. But the system was still upgradeable though
+the upgrade path was not as simple as the MGH. 
+ 
+11) News Updates
+ 
+-----------------------------------------------------------------------------
+The Game Doctor SF3 was released recently. It now occupies about 50% of the
+copier market in Hong Kong. It has 24MB or 32MB, supports all DSP/HiRom
+games, and can play StarFox. It is MultiLingual, has advanced OS, and superior
+backup features. It is the most user-friendly system.
+-----------------------------------------------------------------------------
+The Magic Drive Plus has been released from the creators of the Super Magic
+Drive. Also known as the Super Magic Drive 2, this has 24 megs and can copy
+all Genesis games, including SF2:SCE. But it can't play SF2:SCE from a backup.
+-----------------------------------------------------------------------------
+The Super Pro Fighter now has a Turbo cart which when plugged in, along with
+a 24MB ram upgrade, will let users backup and play SF2:Turbo. Also there have
+been similar upgrades released for the UFO and MGH.
+-----------------------------------------------------------------------------
+A new dummy cart with 8MB of ram will be released for current MGH systems
+so they can backup 20-24MB games.
+-----------------------------------------------------------------------------
+FFe (the makers of the SWC) has released the "Turbo Upgrade Kit" for current
+SWC systems. It consists of a 24MB ram board, DOS 2.6CC, and a U12 18CV8 Peel.
+Estimated costs are between $135-$150. Check with your dealer for possible
+trade-in's of current 16MB ram boards for credit. 
+-----------------------------------------------------------------------------
+The MGH/ASIC has been released. This is just an update of the current MGH
+and has an ASIC chip and a new SNES decoder chip. It is fully compatible
+with the MGH. All current accesories for the MGH work with the MGH/A.
+2 bases were released: A grey one, and a black one. The black one includes
+both hirom decoders and can play all games, while the grey one only includes
+the one for <=16MB games. 
+-----------------------------------------------------------------------------
+ 
+12) User Tips
+ 
+a) skleung@csd.hku.hk (Michael Klauser) writes that the UFO Super Drive reads
+slowly, and to make it faster you should use the internal format command, but
+that is not MS-DOS compatible. To attain a maximum of 29 seconds for an 8M
+file, you should use FDFORMAT and make the following batch file called f144.bat:
+ 
+fdformat b:/u d16 g100 x1 y3 
+ 
+For the MGH:
+ 
+fdformat b: g42 t82 n20 d16 x1 y3 
+ 
+b) ratnuts@panix.com (Peter Mui) writes on how to make the cable to transfer
+files between a PC and a SWC. Get a RS232 DB M/M 25 pin cable. Remove pins
+12, 14, 15, and 16. This removes the volts sent by the computer when it is
+turned off. For an Amiga to SWC cable, get an assembled RS232 DB 25 M/M
+and switch the wires from pin 1 to 13 on one end. You will have to connect the
+modified end to the Amiga and the unmodified end to the SWC. For more
+information on proper assembly, contact Peter.
+ 
+13) Mailing List
+ 
+A new mailing list has started for the Copier FAQ. If you want to get each
+new version as it comes out, please send email to me with the subject:
+ 
+Copier Mailing List (your.email@address.here)
+ 
+Then you will be added and get each new revision as it comes out.
+ 
+14) Final Notes
+ 
+Thanks for reading this. If you have any suggestions, corrections, tips,
+additional questions, etc, please e-mail them to the address at the
+top of the FAQ.
+ 
+DISCLAIMER: I DO NOT IN ANY WAY, SHAPE, OR FORM ADVOCATE OR SUPPORT PIRACY.
+            GAME COPIERS ARE FOR ARCHIVAL PURPOSES ONLY. NO ONE WILL BE
+            HELD LIABLE FOR WHAT OWNERS DO IN THE PRIVACY OF THEIR OWN 
+            HOMES. SOFTWARE PIRACY IS A CRIME. I WILL NOT AID OR ABET ANYONE
+            WITH THE INTENT TO PIRATE SOFTWARE. 
+            THIS FILE IS FOR INFORMATIONAL PURPOSES ONLY.
+            Thank you, and have a nice day.
+ 
+ 
+-- 
+/vsuhocki@cbnewsm.cb.att.com|Disclaimer: My opinions are my own, and   \
+|attbl!cbnewsm!vsuhocki     |not affiliated, or related to my employer's| 
+\PGP key available by finger|-------------------------------------v1.4--/ 
